@@ -1,0 +1,1 @@
+[1] Kroese, Dirk P., and Zdravko I. Botev. "Spatial process simulation." Stochastic geometry, spatial statistics and random fields: Models and algorithms. Cham: Springer International Publishing, 2014. 369-404.
