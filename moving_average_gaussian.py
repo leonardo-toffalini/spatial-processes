@@ -21,15 +21,15 @@ def simulate_ma_gaussian(n, r):
 fig = plt.figure(figsize=(21, 9))
 ax1 = plt.subplot(1, 2, 1)
 
-x1 = simulate_ma_gaussian(300, 6)
+x1 = simulate_ma_gaussian(500, 10)
 
 ax1.imshow(x1, cmap='gray')
 
-x2 = simulate_ma_gaussian(50, 4)
+x2 = simulate_ma_gaussian(500, 15)
 
 ax2 = plt.subplot(1, 2, 2, projection='3d')
 X, Y = np.meshgrid(np.arange(x2.shape[1]), np.arange(x2.shape[0]))
-ax2.plot_surface(X, Y, x2, cmap='viridis')
+ax2.plot_surface(X, Y, x2, cmap='viridis', alpha=0.7)
 plt.tight_layout()
 plt.show()
 
